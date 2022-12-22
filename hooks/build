@@ -1,0 +1,18 @@
+#!/bin/bash
+mkdir -p /tmp/skatetrax
+touch /tmp/skatetrax/skatetrax.conf
+cat > /tmp/skatetrax/skatetrax.conf << POST_CONF
+
+[dbconf]
+host = $db_host
+user = $db_user
+password = $db_pass
+db = $db_database
+
+[appKey]
+secret = $appKey
+
+
+POST_CONF
+
+exit 0
