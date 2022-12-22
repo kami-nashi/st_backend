@@ -1,7 +1,7 @@
 #!/bin/bash
-mkdir -p /tmp/skatetrax
-touch /tmp/skatetrax/skatetrax.conf
-cat > /tmp/skatetrax/skatetrax.conf << POST_CONF
+mkdir -p /etc/skatetrax
+touch /etc/skatetrax/skatetrax.conf
+cat > /etc/skatetrax/skatetrax.conf << POST_CONF
 
 [dbconf]
 host = $db_host
