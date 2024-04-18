@@ -1,0 +1,3 @@
+#package-two @ git+https://github.com/owner/repo@main
+
+skatetrax-core @ git+https://github.com/kami-nashi/skatetrax@stc_0.0.1
